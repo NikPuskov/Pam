@@ -40,3 +40,10 @@
 
 ![Image alt](https://github.com/NikPuskov/Pam/blob/main/pam1.jpg)
 
+Добавим права на исполнение файла: `chmod +x /usr/local/bin/login.sh`
+
+Укажем в файле /etc/pam.d/sshd модуль pam_exec и наш скрипт:
+
+`nano /etc/pam.d/sshd`
+
+![Image alt](https://github.com/NikPuskov/Pam/blob/main/pam2.jpg)
