@@ -38,5 +38,5 @@
 
 `nano /usr/local/bin/login.sh`
 
-
+![Image alt](https://github.com/NikPuskov/Pam/blob/main/pam1.jpg)
 
